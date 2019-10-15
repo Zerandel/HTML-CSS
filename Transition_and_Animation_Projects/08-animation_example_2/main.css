@@ -1,0 +1,29 @@
+html {
+  font-size: 1vw;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  animation-name: text-grow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes text-grow {
+  0% { font-size: 2rem;}
+  100% { font-size: 15rem;}
+}
