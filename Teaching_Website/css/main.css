@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  /* background-color: #464646; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+}
+
+a {
+  color: #fff;
+}
