@@ -1,0 +1,78 @@
+html, body, div, h3, p {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1vw;
+  font-family: sans-serif;
+  color: #57727C;
+}
+
+#atf {
+  height: 50vh;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(202, 208, 210);
+  border-radius: 4px;
+  width: 27%;
+  box-shadow: 0 2px 2px;
+  cursor: pointer;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bttm {
+  width: 100%;
+  text-align: center;
+  background-color: #EEF3F5;
+  border-top: 1px solid #D7DBDD;
+  margin-top: 1.6rem;
+  padding: 1.7rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  /* overflow: hidden; */
+}
+
+.icon-all {
+  color: rgb(188, 210, 218);
+  font-size: 20rem;
+}
