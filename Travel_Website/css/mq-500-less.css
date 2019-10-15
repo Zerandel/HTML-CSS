@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img {
+  background-image: url("../img/adventure-sm.jpg");
+}
