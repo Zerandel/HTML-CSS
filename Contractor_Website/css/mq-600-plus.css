@@ -1,0 +1,12 @@
+article img {
+  display: block;
+}
+
+div > aside {
+  display: flex;
+  justify-content: space-around;
+}
+
+.divider > span {
+  width: 450px;
+}
